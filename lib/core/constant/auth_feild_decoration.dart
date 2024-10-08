@@ -10,7 +10,7 @@ final authFieldDecoration = InputDecoration(
   suffixIconColor: whiteColor,
   fillColor: boxTextFieldColor,
   filled: true,
-  contentPadding: EdgeInsets.all(20),
+  contentPadding: const EdgeInsets.all(20),
   border: InputBorder.none,
   enabledBorder: OutlineInputBorder(
       borderSide: const BorderSide(color: whiteColor, width: 0.0),
