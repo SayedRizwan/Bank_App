@@ -42,10 +42,12 @@ class WelcomeScreen extends StatelessWidget {
                 ///
                 /// Soacial Button
                 ///
-                _PressableButton(
-                    image: AppAssets.google,
-                    text: "Continue With Google",
-                    onPressed: () {}),
+                // _PressableButton(
+                //     image: AppAssets.google,
+                //     text: "Continue With Google",
+                //     onPressed: () {
+                //       print("google preessed");
+                //     }),
 
                 CustomButton(
                   name: "Register",
