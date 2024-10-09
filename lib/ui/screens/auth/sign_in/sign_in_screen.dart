@@ -27,14 +27,14 @@ class SignInScreen extends StatelessWidget {
               backgroundColor: Colors.transparent,
               shadowColor: Colors.transparent,
               automaticallyImplyLeading: true,
-              // leading: IconButton(
-              //     onPressed: () {
-              //       Navigator.pop(context);
-              //     },
-              //     icon: Icon(
-              //       Icons.arrow_back_ios_new,
-              //       color: blackColor,
-              //     )),
+              leading: IconButton(
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                  icon: Icon(
+                    Icons.arrow_back_ios_new,
+                    color: blackColor,
+                  )),
             ),
 
             ///

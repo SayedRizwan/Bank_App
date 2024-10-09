@@ -12,10 +12,20 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class SignUpScreen extends StatelessWidget {
+  //  Future<void> main() async {
+  //     WidgetsFlutterBinding.ensureInitialized();
+  //     SharedPreferences prefs = await SharedPreferences.getInstance();
+  //     var email = prefs.getString('email');
+  //     print(email);
+  // }
+
   @override
   Widget build(BuildContext context) {
+    // Obtain shared preferences.
+
     return ChangeNotifierProvider(
         create: (context) => SignUpViewModel(),
         child: Consumer<SignUpViewModel>(
@@ -39,6 +49,7 @@ class SignUpScreen extends StatelessWidget {
 
             ///
             /// Start Body
+            ///
             ///
             body: SingleChildScrollView(
               child: Padding(
@@ -94,6 +105,7 @@ class SignUpScreen extends StatelessWidget {
                       child: TextFormField(
                         decoration: authFieldDecoration.copyWith(
                             hintText: 'Email Address'),
+                        //controller: yourEmailController,
                       ),
                     ),
                     SizedBox(
