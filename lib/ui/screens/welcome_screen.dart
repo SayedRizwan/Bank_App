@@ -1,6 +1,5 @@
 // ignore_for_file: use_key_in_widget_constructors
 
-import 'package:bank_app/core/constant/app_assets.dart';
 import 'package:bank_app/core/constant/colors.dart';
 import 'package:bank_app/core/constant/text_style.dart';
 import 'package:bank_app/ui/custom_widgets/buttons/custom_buttons.dart';
